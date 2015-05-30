@@ -1,0 +1,7 @@
+/root/AndroidStudioProjects/tweetLanes/build/intermediates/classes/debug
+/root/AndroidStudioProjects/tweetLanes/build/intermediates/pre-dexed/debug/twitter4j-media-support-3.0.6-SNAPSHOT-f992eef592ddc4a5266183bf9dad0901a2493737.jar
+/root/AndroidStudioProjects/tweetLanes/build/intermediates/pre-dexed/debug/dashclock-api-r1.1-b7ae2dd4de3202cc57fe2205cd532937dbaa8a96.jar
+/root/AndroidStudioProjects/tweetLanes/build/intermediates/pre-dexed/debug/prime-0.6.1-ec524274b362caf8c348378d58bb7eac75e35a0e.jar
+/root/AndroidStudioProjects/tweetLanes/build/intermediates/pre-dexed/debug/basic-http-client-android-0.88-590a189f7dfb1ab71d8ebbebcd06f4efe3f4b79f.jar
+/root/AndroidStudioProjects/tweetLanes/build/intermediates/pre-dexed/debug/twitter4j-core-3.0.6-SNAPSHOT-0ec2fd52a3cc2ef098cb7585be76d5e26823a4b5.jar
+/root/AndroidStudioProjects/tweetLanes/build/intermediates/pre-dexed/debug/support-v4-18.0.0-271cf7033ab1aa0d5396d34ddfb54364498f08ea.jar

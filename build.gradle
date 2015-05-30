@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 18
+    buildToolsVersion "22.0.0"
+
+    defaultConfig {
+        applicationId "com.tweetlanes.android.core"
+        minSdkVersion 14
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+
+        packagingOptions {
+            exclude 'META-INF/LICENSE.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/basic-http-client-android-0.88.jar')
+    //compile files('libs/crittercism_v4_3_0_sdkonly.jar')
+    compile files('libs/dashclock-api-r1.1.jar')
+    compile files('libs/prime-0.6.1.jar')
+    compile files('libs/twitter4j-core-3.0.6-SNAPSHOT.jar')
+    compile files('libs/twitter4j-media-support-3.0.6-SNAPSHOT.jar')
+}
+buildscript {
+
+    repositories {
+
+        mavenCentral()
+
+    }
+
+    dependencies {
+
+        classpath 'com.android.tools.build:gradle:1.0.0'
+
+    }
+
+}
